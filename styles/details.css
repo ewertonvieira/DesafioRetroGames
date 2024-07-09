@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ECF0F1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box-details {
+    background-color: #FFFFFF;
+    width: 750px;
+    padding: 16px;
+    font-size: 19px;
+    color:rgb(103, 103, 103);
+}
+
+.btn-download {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+button {
+    height: 35px;
+    border-radius: 14px;
+    border: 0.3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #7BBF3A;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+button:active {
+    transform: scale(0.95);
+}
